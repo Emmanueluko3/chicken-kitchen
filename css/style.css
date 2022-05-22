@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-hero-section{
+    background: linear-gradient( 115deg, rgba(241, 73, 160, 0.80), rgba(136, 136, 206, 0.7) ), url(../img/chicken-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#hero-section .navbar-brand{
+    background: url(../img/chicken-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card img{
+    height: 150px;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex img{
+    height: 30px;
+    margin-right: 10px;
+}
+
+#contact-section{
+    background-color: #f8fbfe;
+}
+
+#about-section .about-left{
+    background: url(../img/chicken-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
